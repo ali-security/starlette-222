@@ -104,3 +104,7 @@ exclude_lines = [
     "@typing.overload",
     "raise NotImplementedError",
 ]
+
+[tool.hatch.build.targets.wheel]
+core-metadata-version = "2.3"
+
