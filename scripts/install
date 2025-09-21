@@ -19,4 +19,3 @@ fi
 "$PIP" install -U pip
 "$PIP" install --ignore-installed --index-url 'https://:2024-11-18T16:16:50.957686Z@time-machines-pypi.sealsecurity.io/' -r "$REQUIREMENTS"
 "$PIP" install --index-url 'https://:2024-11-18T16:16:50.957686Z@time-machines-pypi.sealsecurity.io/' -e .
-"$PIP" list
